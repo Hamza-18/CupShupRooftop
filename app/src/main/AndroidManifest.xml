@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hamza.cupshuprooftop"
+    android:versionName="1.0.1">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cupshup_round"
+        android:label="CupShup Rooftop"
+        android:roundIcon="@mipmap/cupshup_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ContactUs_Activity"></activity>
+        <activity android:name=".Address_Activity" />
+        <activity android:name=".Kahwa_Activity" />
+        <activity android:name=".Tea_Activity" />
+        <activity android:name=".Coffee_Activity" />
+        <activity android:name=".Drinks_Activity" />
+        <activity android:name=".Mocktails_Activity" />
+        <activity android:name=".Shakes_Activity" />
+        <activity android:name=".Frappes_Activity" />
+        <activity android:name=".Fries_Activity" />
+        <activity android:name=".Soup_Activity" />
+        <activity android:name=".Steaks_Activity" />
+        <activity android:name=".Fish_Activity" />
+        <activity android:name=".Roulades_Activity" />
+        <activity android:name=".Pasta_Activity" />
+        <activity android:name=".Pizza_Activity" />
+        <activity android:name=".Sandwiches_Activity" />
+        <activity android:name=".Burgers_Activity" />
+        <activity android:name=".Salads" />
+        <activity android:name=".Cart_Activity" />
+        <activity android:name=".appetizers_activity" />
+        <activity android:name=".Menu_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
